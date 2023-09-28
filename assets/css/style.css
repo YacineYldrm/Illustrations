@@ -170,7 +170,7 @@ h1
     background: url(./../img/illustration2.png) no-repeat;
     background-size: 30vw;
     background-position-x: left;
-    min-height: 500px;
+    min-height: 35vw;
 }
 
 .concepts:nth-of-type(2)
@@ -178,7 +178,7 @@ h1
     background: url(./../img/illustration3.png) no-repeat;
     background-size: 30vw;
     background-position-x: right;
-    min-height: 700px;
+    min-height: 35vw;
 }
 
 .concepts:nth-of-type(1) div
