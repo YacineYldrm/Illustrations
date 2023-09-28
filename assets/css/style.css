@@ -45,8 +45,8 @@ a
 
 .wrapper_container
 {
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .text_concepts
@@ -85,7 +85,8 @@ nav a:nth-of-type(2)
 .hero_section
 {
     background: url(./../gif/illustration1.gif) no-repeat;
-    background-size: 30vw;
+    /* background-size: 30vw; */
+    background-size: contain;
     background-position-x: right;
     min-height: 550px;
     margin-bottom: 95px;
@@ -177,7 +178,7 @@ h1
     background: url(./../img/illustration3.png) no-repeat;
     background-size: 30vw;
     background-position-x: right;
-    min-height: 500px;
+    min-height: 700px;
 }
 
 .concepts:nth-of-type(1) div
@@ -216,6 +217,11 @@ h1
                     main section -> examples
 ================================================================== */
 
+.example_preview
+{
+    margin-left: 55px;
+}
+
 .examples header
 {
     text-align: center;
@@ -233,10 +239,10 @@ h1
 .examples_img a img
 {
     display: inline-flex;
-    width: 535px;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 65px;
+    width: 35vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-bottom: 5vw;
 }
 
 /* ===============================================================
@@ -346,11 +352,11 @@ footer > ul > li
 
 img
 {
-    transition: 80ms ease-out;
+    transition: 30ms ease-out;
 }
 
 
 img:hover
 {
-    box-shadow: 0px 0px 3px 2px rgba(105, 105, 105, 0.413);
+    box-shadow: 0px 0px 1px 4px rgba(148, 148, 148, 0.413);
 }
